@@ -10,63 +10,63 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+                afirmacao: "O Paraná é um estado brasileiro localizado na região Sul do país."
             },
             {
                 texto: "Não!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "O Paraná é um dos 26 estados do Brasil, localizado na região Sul do país."
             }
         ]
     },
     {
-        enunciado: "?",
+        enunciado: "qual é a capital do paraná?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Curitiba.",
+                afirmacao: " Possui clima predominantemente subtropical úmido e um relevo planáltico, com as maiores elevações concentrando-se no leste do estado."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Foz do Iguaçu.",
+                afirmacao: " Com uma população de mais de 11 milhões de habitantes, é um dos estados mais populosos e economicamente importantes do país."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Qual o simbolo do estado?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "A Araucária.",
+                afirmacao: "Sua economia é a quinta maior do país, destacando-se a indústria de transformação e a produção de grãos."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "A gralha azul.",
+                afirmacao: "O Paraná possui uma paisagem diversificada, que inclui desde planícies litorâneas até áreas de planalto e montanhas."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "O nome Paraná tem sua origem no tupi-guarani. O que ele significa?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Semelhante ao mar.",
+                afirmacao: "Alguns dos pratos tipicos do estado são o pinhão, barreado, entre outras."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Terra da mata. ",
+                afirmacao: "A cultura paranaense é uma rica mistura de tradições, influenciada por diversas ondas de imigração. "
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Qual o principal rio do Paraná? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Rio Paraná",
+                afirmacao: "Está localizado no Sul do país. Fazendo divisa com São Paulo, Santa catarina e Mato Grosso do Sul. "
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Rio Iguaçu.",
+                afirmacao: "A cultura paranaense é uma rica mistura de tradições, influenciada por diversas ondas de imigração."
             }
         ]
     },
@@ -106,7 +106,7 @@ function respostaSelecionada(opcaoSelecionada){
 
 }
 function mostraResultado(){
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Resumo...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 
